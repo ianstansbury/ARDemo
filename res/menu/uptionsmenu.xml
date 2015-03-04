@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+ >
+
+<item android:id="@+id/buildingslist"
+android:title="@string/buildingsactivity"/>
+
+<item android:id="@+id/administrationlist"
+android:title="@string/adminactivity"/>
+
+<item android:id="@+id/facultylist"
+android:title="@string/facultyactivity"/>
+
+</menu>

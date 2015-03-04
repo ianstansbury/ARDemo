@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SchoolARProjectActivity!</string>
+    <string name="app_name">SchoolARProject</string>
+    <string name="startButton">Start</string>
+    <string name="optionsButton">Options</string>
+    <string name="options">Select which group you wish to use</string>
+	<string name="buildingsactivity">Buildings</string>
+    <string name="adminactivity">Administration</string>
+    <string name="facultyactivity">Faculty</string>
+        
+</resources>

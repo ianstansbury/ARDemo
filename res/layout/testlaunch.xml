@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <Button
+        android:id="@+id/cameraLaunchButton"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:padding="10dp"
+        android:text="Camera Test" />
+
+    <Button
+        android:id="@+id/listLaunchButton"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Building List" />
+    
+    <Button 
+        android:id="@+id/ARDemoButton"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:padding="10dp"
+        android:text="AR Demo"/>
+
+</LinearLayout>

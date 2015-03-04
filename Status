@@ -1,0 +1,70 @@
+Status text file
+Ian Stansbury
+11/30/2011
+
+Outstanding issues:
+
+1. Was unable to get databases to work within the project. After several crashes
+I found that the lab assignment 4 also crashed on my phone. Since I was using this as
+a guide I wasn't able to figure out how to get it to not crash. 
+
+2. The open Gl images of arrows don't scale quite right. This causes the arrows to be too small
+when the location is far away.
+
+3. Was not able to pin point faculty offices. This is due to variant nature of the GPS in the
+android phones, causing the points to be off by + or - 16 feet
+
+Modifications:
+
+1. As stated above, the issue with the databases caused me to hard code the location points. This 
+reduced the dynamic nature of the listviews but 
+
+2. Did not have time to create my own Open GL image for location pin pointing
+
+3. Did away with the start screen option menu since I couldn't really think of many options to 
+have. I did create am options menu in the app for navigation
+
+Problems and Solutions:
+
+1. The use of my own methods for the camera functions(accelerator, gps, etc.) wasn't working.
+This caused me to look for a fram work to use. Some of these include layer, droidar, etc. 
+
+2. There was no way to compute distance within the framework, so I wrote my own. This involed several 
+different features. First I had to convert the minutes and seconds to decimals. Then using the 
+distance formula I had compute the 2D distance between two points> I didn't calculate altitude.
+After this I had to figure the miles per degree, 58 at this latitude. and the multiply to get the
+feet per degree found.
+
+3. Had to create a new constructor for the framework since the default GeoObj gave latitude and longitude
+but not elevation
+
+4. There was no built in setup for the framework that served my purposes. After extensive investigation
+I was able to use methods from several different setups to create the two features I needed most:
+The ability to set a point at a specific GPS point and then to notify when I had reached that point
+
+5. Small problem with the spinner crashing when used with a text view. Solved this by imbedding the
+calls to seperate list activities, faculty and administration, and then calling those list 
+to cover different kinda of lists
+
+Lessons Learned:
+
+1. It was eye opening the amount of testing and coding is needed with even a small android project
+
+2. I learned more about latitude and longitude then I ever wanted to know.
+
+3. Using someone's framework can be tough. The uses they envisioned may not be what you were looking
+for
+
+4. Documentation is very useful, especially javadocs, which were barely present within the framework.
+
+5. It was nice to be able to use some of the lessons we learned this semester
+
+Wow factors:
+
+1. Made multiple lists, so that instead of just buildings there is a faculty list and a administration list
+
+2. the start screen looks great, designed in gimp2 by myself 
+
+
+
+
